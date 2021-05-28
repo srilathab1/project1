@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+      .card{ 
+      position:relative;
+       overflow: hidden;
+         transition: 0.2s all;
+        }
+         .card-text{
+         position: absolute;
+          bottom: 0;
+        left: 0px;
+         right: 0; 
+         background-color:transparent;
+          overflow: hidden;
+           width: 100%; 
+           height:0%;
+            transition: .5s ease-in;
+             } 
+             .card:hover .card-text{
+background-color:transparent;
+ height:100%;
+  }
+   .para1{
+        color: white;
+         /* font-size: 10px; */
+      position: absolute;
+       box-sizing: border-box; 
+        box-shadow: 5px 5px 5px #000;
+         top: 50%;
+          left: 50%;
+           transform: translate(-50%, -50%); 
+           text-align: center;
+            }
+     </style>
+       </head>
+     <body>
+        <nav class="navbar navbar-expand-md bg-warning navbar-light ">
+            <button class="navbar-toggler" data-target="#abc" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="">
+                <i class="fa fa-cutlery" aria-hidden="true"></i>
+                <span class="text-white">Food Restaurant</span>
+            </a>
+            <div class="collapse navbar-collapse ml-auto" id="abc">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">Home</a>
+                    </li>
+                   <li class="nav-item">
+                       <a class="nav-link text-white" href="About.html">AboutUs</a>
+                   </li>
+                   <li class="nav-item">
+                    <a class="nav-link text-white" href="gallery.html">Gallery</a>
+                </li>
+                    <li class="nav-item dropdown">
+                        <!-- <a class="nav-link text-white" href="">Contact</a> -->
+                            <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contact</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">E-mail:JBSrestaurant@gmail.com</a>
+                              <a class="dropdown-item" href="#">call: 8121909390</a>
+                              <a class="dropdown-item" href="#">mobile no: 9959589957</a>
+                            </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="menu1.html">Menu</a>
+                      </li>
+                </ul>
+            </div>
+                <button class="btn btn-primary" data-target="#p1" data-toggle="modal">Login</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#p1">
+                   SignUP
+                   </button>
+                <div class="modal fade" id="p1" tabindex="-1" role="dialog" aria-labelledby="p1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="p1">SignUp</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="">
+                            <div class="form-group">
+                        <input class="form-control" type="text" name="" id="p1"  placeholder="Enter Username">
+                            </div>
+                            <div class="form-group">
+                                <input  type="text" name="Password" id="p1" placeholder="Enter Password">
+                                    </div>
+                                    <div class="form-group">
+                             <input class="form-control" type="text" name="Email-id" id="p1"  placeholder="Enter Email-id">
+                              </div>
+                             <div class="form-group">
+                             <lable for="">DOB</lable> 
+                             <input class="form-control" type="date" name="DOB" id="p1"  placeholder="DOB">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">SignUp</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </nav>
+     <div class="container">
+         <h1 class="text-center">Break-fast</h1>
+          <div class="row">
+              <div class="col">
+             <div class="card">
+         <img src="img7.jpg" alt="" class="card-img-top" height=200 width=250> 
+        <h2 class="text-center">Idly 30rs/-</h2>
+         <div class="card-body">
+             <div class="card-text">
+            <p class="para1">this is the best break fast for every one it is made up of rice and black gram. this type of food digest fastly.</p> 
+        </div>
+     </div>
+     </div>
+      <!-- First -->
+     </div>
+      <div class="col">
+     <div class="card">
+     <img src="img26.jpg" alt="" class="card-img-top" height=200 width=200>
+     <h2 class="text-center">Chapat 30rs/-</h2>
+      <div class="card-body">
+     <div class="card-text">
+     <p class="para1">chapathi is best break fast we can stay long time without eat anything after that. this is cook with pure wheat flour.</p>
+     </div>
+     </div>
+            </div> <!-- second --> 
+        </div>
+             <div class="col">
+                 <div class="card"> 
+                <img src="img20.jpg" alt="" class="card-img-top"height=200 width=200>
+                <h2 class="text-center">Bread amlet</h2> 
+                <div class="card-body"> 
+                <div class="card-text"> 
+                <p class="para1" align="center">It is made by bread. first bread fried with gee in the toaster after fried with egg in the thava. it is good for heslth.</p> 
+            </div> 
+        </div> 
+        </div> <!-- third --> 
+        </div> 
+        </div>
+         </div>
+         <div class="container">
+             <h1 class="text-center">Lunch</h1>
+            <div class="row"> 
+                <div class="col">
+               <div class="card">
+           <img src="img27.jpg" alt="" class="card-img-top" height=200 width=250> 
+          <h2 class="text-center">Rice 100rs/-</h2>
+           <div class="card-body">
+               <div class="card-text">
+              <p class="para1">this is a rice with vegtable curries. it include 3 types of curries and sambar and papad, curd.</p> 
+          </div>
+       </div>
+       </div>
+        <!-- First -->
+       </div>
+        <div class="col">
+       <div class="card">
+       <img src="img25.jpg" alt="" class="card-img-top" height=200 width=200>
+       <h2 class="text-center">Mutton biryani 300rs/-</h2>
+        <div class="card-body">
+       <div class="card-text">
+       <p class="para1">Long-grained rice (like basmati) flavored with fragrant spices such as saffron and layered with thick gravy. The dish is then covered, its lid secured with dough, and then the biryani is cooked over a low flame.</p>
+       </div>
+       </div>
+              </div> <!-- second --> 
+          </div>
+               <div class="col">
+                   <div class="card"> 
+                  <img src="img14.jpg" alt="" class="card-img-top"height=200 width=200>
+                  <h2 class="text-center">Burger  100rs/-</h2> 
+                  <div class="card-body"> 
+                  <div class="card-text"> 
+                      <p>a burger consisting of beef meat one or more cooked patties of it, placed inside a sliced bread roll or bun.
+                        Cheeseburger, a hamburger with added cheese(s)
+                        Pork burger, a burger consisting of pork
+                        Ground beef, or minced cow meat mince or other meat used to make hamburgers
+                        Patty, the ground meat in a circular shape to fit the burger bun</p>
+              </div> 
+          </div> 
+          </div> <!-- third --> 
+          </div> 
+          </div>
+           </div>
+           <div class="container">
+               <h1 class="text-center text-color:red">Dinner</h1>
+            <div class="row"> 
+                <div class="col">
+               <div class="card">
+           <img src="img23.jpg" alt="" class="card-img-top" height=200 width=250> 
+          <h2 class="text-center">Fruit salad 50rs/-</h2>
+           <div class="card-body">
+               <div class="card-text">
+                  <p class="para1">There are many types of fruit salad, ranging from the basic (no nuts, marshmallows, or dressing) to the moderately sweet (Waldorf salad) to the sweet (ambrosia salad).</p> 
+             </div>
+       </div>
+       </div>
+        <!-- First -->
+       </div>
+        <div class="col">
+       <div class="card">
+       <img src="img24.jpg" alt="" class="card-img-top" height=200 width=200>
+       <h2 class="text-center">pizza 130rs/-</h2>
+        <div class="card-body">
+       <div class="card-text">
+       <p class="para1">Pizza is a type of food that was created in Italy (The Naples area). It is made with different toppings. Some of the most common toppings are cheese, sausages, pepperoni, vegetables, tomatoes, spices and herbs and basil.</p>
+       </div>
+       </div>
+              </div> <!-- second --> 
+          </div>
+               <div class="col">
+                   <div class="card"> 
+                  <img src="img12.jpg" alt="" class="card-img-top"height=200 width=200>
+                  <h2 class="text-center">Chicken role  100rs/-</h2> 
+                  <div class="card-body"> 
+                  <div class="card-text"> 
+                  <p class="para1">Succulent pieces of spicy chicken cooked with freshly chopped onions and peppers, drizzled with a tangy cilantro mint chutney, and rolled in soft flaky parathas make for one of India’s most epic street food – the Chicken Kathi Rolls.</p> 
+              </div> 
+          </div> 
+          </div> <!-- third --> 
+          </div> 
+          </div>
+           </div>
+         <blockquote class="blockquote mb-0 bg-secndary">
+            <footer class="blockquote-footer bg-secndary">Website design by <cite title="Source Title">   G.srilatha</cite>
+                <i class="fa fa-facebook bg-primary m-3 p-3 " aria-hidden="true"></i> 
+        <i class="fa fa-twitter bg-info  m-3 p-3" aria-hidden="true" ></i>
+        <i class="fa fa-instagram  bg-danger  m-3 p-3 " aria-hidden="true"></i>
+    </footer>
+</blockquote> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+</body>
+</html>
